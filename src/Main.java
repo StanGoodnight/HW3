@@ -147,7 +147,7 @@ public class Main {
         System.out.println("Вес спортзавтрака - " + weightOfSportsBreakfastInKilograms + " килограмм.");
 
         byte needToReset = 7;
-        System.out.println("Нужно сбросить - " + needToReset + " кг.");
+        System.out.println("Нужно сбросить - " + needToReset + " килограмм.");
 
         int needToReset2 = needToReset * 1000;
         System.out.println("Нужно сбросить - " + needToReset2 + " г.");
