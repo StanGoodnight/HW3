@@ -149,7 +149,62 @@ System.out.println("Вес спортзавтрака - " + weightOfSportsBreakf
 byte needToReset = 7;
 System.out.println("Нужно сбросить - " + needToReset + " кг.");
 
+int needToReset2 = needToReset * 1000;
+System.out.println("Нужно сбросить - " + needToReset2 + " г.");
 
+short diet1 = 250;
+System.out.println("Можно сбросить с лёгкой диетой - " + diet1 + " г., в день.");
+
+short diet2 = 500;
+System.out.println("Можно сбросить с тяжелой диетой - " + diet2 + " г., в день.");
+
+int daysForALightDiet = needToReset2 / diet1;
+System.out.println(daysForALightDiet + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + diet1 + " г., в день.");
+
+int daysForAHeavyDiet = needToReset2 / diet2;
+System.out.println(daysForAHeavyDiet + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + diet2 + " г., в день.");
+
+int diet3 = (diet1 + diet2) / 2;
+System.out.println("Можно сбросить со средней диетой - " + diet3 + " г., в день.");
+
+int daysForAnAverageDiet = needToReset2 / diet3;
+System.out.println(daysForAnAverageDiet + " дней уйдет на похудение, если спортсмен будет терять каждый день по " + diet3 + " г., в день.");
+
+int mashaGets = 67760;
+System.out.println("Маша получает - " + mashaGets + " рублей.");
+
+int mashaIncomePerYear = (mashaGets * 10) * 12;
+System.out.println("Годовой доход Маши составлял - " + mashaIncomePerYear + " рублей.");
+
+int mashaWillReceive = (mashaGets / 100) * 10 + mashaGets;
+System.out.println( "Маша теперь получает - " + mashaWillReceive + " рублей.");
+
+int mashaIncomeHasIncreased = (mashaWillReceive * 10) * 12;
+System.out.println("Годовой доход Маши вырос на - " + mashaIncomeHasIncreased + " рублей.");
+
+int denisGets = 83690;
+System.out.println("Денис получает - " + denisGets + " рублей.");
+
+int denisIncomePerYear = (denisGets* 10) * 12;
+System.out.println("Годовой доход Дениса составлял - " + denisIncomePerYear + " рублей.");
+
+int denisWillReceive = (denisGets / 100) * 10 + denisGets;
+System.out.println( "Денис теперь получает - " + denisWillReceive + " рублей.");
+
+int denisIncomeHasIncreased = (denisWillReceive * 10) * 12;
+System.out.println("Годовой доход Дениса вырос на - " + denisIncomeHasIncreased + " рублей.");
+
+int kristinaGets = 76230;
+System.out.println("Кристина получает - " + kristinaGets + " рублей.");
+
+int kristinaIncomePerYear = (kristinaGets* 10) * 12;
+System.out.println("Годовой доход Кристины составлял - " + kristinaIncomePerYear + " рублей.");
+
+int kristinaWillReceive = (kristinaGets / 100) * 10 + kristinaGets;
+System.out.println( "Кристина теперь получает - " + kristinaWillReceive + " рублей.");
+
+int kristinaIncomeHasIncreased = (kristinaWillReceive * 10) * 12;
+System.out.println("Годовой доход Кристины вырос на - " + kristinaIncomeHasIncreased + " рублей.");
 
     }
 }
