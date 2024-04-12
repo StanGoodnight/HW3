@@ -203,7 +203,7 @@ System.out.println("Годовой доход Кристины составля�
 int kristinaWillReceive = (kristinaGets / 100) * 10 + kristinaGets;
 System.out.println( "Кристина теперь получает - " + kristinaWillReceive + " рублей.");
 
-int kristinaIncomeHasIncreased = (kristinaWillReceive * 10) * 12;
+int kristinaIncomeHasIncreased = ( kristinaWillReceive * 10 ) * 12;
 System.out.println("Годовой доход Кристины вырос на - " + kristinaIncomeHasIncreased + " рублей.");
 
     }
