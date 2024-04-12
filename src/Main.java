@@ -144,7 +144,7 @@ int sportsBreakfastWeight = weightOfAllBananas + totalWeightOfMilk + totalWeight
 System.out.println("Вес спортзавтрака - " + sportsBreakfastWeight + " грамм.");
 
 float weightOfSportsBreakfastInKilograms = sportsBreakfastWeight / 1000f;
-System.out.println("Вес спортзавтрака - " + weightOfSportsBreakfastInKilograms + " кг.");
+System.out.println("Вес спортзавтрака - " + weightOfSportsBreakfastInKilograms + " килограмм.");
 
 byte needToReset = 7;
 System.out.println("Нужно сбросить - " + needToReset + " кг.");
