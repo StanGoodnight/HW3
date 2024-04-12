@@ -185,7 +185,7 @@ System.out.println("Годовой доход Маши вырос на - " + mas
 int denisGets = 83690;
 System.out.println("Денис получает - " + denisGets + " рублей.");
 
-int denisIncomePerYear = (denisGets* 10) * 12;
+int denisIncomePerYear = (denisGets* 10) *  12;
 System.out.println("Годовой доход Дениса составлял - " + denisIncomePerYear + " рублей.");
 
 int denisWillReceive = (denisGets / 100) * 10 + denisGets;
